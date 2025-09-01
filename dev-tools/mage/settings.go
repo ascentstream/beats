@@ -36,7 +36,7 @@ import (
 	"golang.org/x/text/language"
 	"gopkg.in/yaml.v3"
 
-	"github.com/elastic/beats/v7/dev-tools/mage/gotool"
+	"github.com/elastic/beats/v9/dev-tools/mage/gotool"
 )
 
 const (
@@ -49,7 +49,7 @@ const (
 
 	elasticBeatsImportPath = "github.com/elastic/beats"
 
-	elasticBeatsModulePath = "github.com/elastic/beats/v7"
+	elasticBeatsModulePath = "github.com/elastic/beats/v9"
 )
 
 // Common settings with defaults derived from files, CWD, and environment.
